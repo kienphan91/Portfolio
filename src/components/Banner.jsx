@@ -8,9 +8,9 @@ const Banner = () => {
         loading="lazy"
         src="../../img/kien.png"
         alt="Kien picture"
-        className="absolute bottom-0 right-20 lg:-left-20 mx-auto object-cover h-5/6 -z-5"
+        className="absolute bottom-0 right-0 lg:-left-20 mx-auto object-cover h-5/6"
       />
-      <div className="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"></div>
+      <div className="hidden lg:block absolute -bottom-1/4 right-0 left-20 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"></div>
       <div className="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold">
         <span className="text-gray-600">Fresher</span>
         <AutoTyping />

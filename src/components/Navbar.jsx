@@ -40,7 +40,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="w-full fixed top-0 bg-white">
+    <nav className="w-full fixed top-0 bg-white z-50">
       <div className="container mx-auto py-5 flex justify-between items-center">
         <div className="flex items-center gap-2">
           <NavbarLogo />
@@ -66,7 +66,7 @@ const Navbar = () => {
         <MoonLogo />
         <div
           id="navbar-toggle"
-          className="space-y-1 md:hidden cursor-pointer z-20"
+          className="space-y-1 md:hidden cursor-pointer z-10"
           onClick={handleClick}
         >
           <div className={`w-6 h-0.5 ${btnStateCheck}`}></div>
@@ -75,7 +75,7 @@ const Navbar = () => {
         </div>
         <ul
           id="menu"
-          className={`${stateCheck} bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center uppercase z-20`}
+          className={`${stateCheck} bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center uppercase`}
         >
           <li>
             <a className="hover:opacity-75" href="#">

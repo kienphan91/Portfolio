@@ -1,12 +1,18 @@
-import Banner from "./components/banner/Banner";
+import About from "./components/About";
+import Banner from "./components/Banner";
 import Navbar from "./components/Navbar";
+import Services from "./components/Services";
 
 const App = () => {
   return (
-    <div className="aspect-[2/1] lg:aspect-[4/3]	 bg-gradient-to-t from-indigo-200 font-nunito relative overflow-hidden">
+    <>
+    <div className="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 font-nunito relative overflow-hidden">
       <Navbar />
       <Banner />
     </div>
+    <About/>
+    <Services/>
+    </>
   );
 };
 
