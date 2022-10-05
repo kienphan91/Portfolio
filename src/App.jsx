@@ -1,6 +1,9 @@
 import About from "./components/About";
 import Banner from "./components/Banner";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 
 const App = () => {
@@ -12,6 +15,9 @@ const App = () => {
     </div>
     <About/>
     <Services/>
+    <Portfolio/>
+    <Contact/>
+    <Footer/>
     </>
   );
 };

@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div className="px-10">
+    <div id="about" className="px-10">
         <div className="container mx-auto flex flex-col-reverse lg:flex-row py-40 gap-20 items-center">
                 {/* left */}
             <div className="relative">

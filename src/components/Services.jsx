@@ -2,8 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div>
-        <div className="container mx-auto">
+        <div id='services' className="container mx-auto">
             <div className='flex flex-col gap-3 items-center'>
                 <h1 className='text-indigo-600 font-bold'>SERVICES</h1>
                 <h1 className='text-3xl'>What do I offer?</h1>
@@ -44,7 +43,6 @@ const Services = () => {
                 </div>
             </div>
         </div>
-    </div>
   )
 }
 

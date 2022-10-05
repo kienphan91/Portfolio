@@ -51,16 +51,16 @@ const Navbar = () => {
             <a href="#">homepage</a>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#">about me</a>
+            <a href="#about">about me</a>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#">services</a>
+            <a href="#services">services</a>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#">works</a>
+            <a href="#portfolio">works</a>
           </li>
           <li className="hover:text-gray-500">
-            <a href="#">contact</a>
+            <a href="#contact">contact</a>
           </li>
         </ul>
         <MoonLogo />
@@ -83,22 +83,22 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="hover:opacity-75" href="#">
+            <a className="hover:opacity-75" href="#about">
               about me
             </a>
           </li>
           <li>
-            <a className="hover:opacity-75" href="#">
+            <a className="hover:opacity-75" href="#services">
               services
             </a>
           </li>
           <li>
-            <a className="hover:opacity-75" href="#">
+            <a className="hover:opacity-75" href="#portfolio">
               works
             </a>
           </li>
           <li>
-            <a className="hover:opacity-75" href="#">
+            <a className="hover:opacity-75" href="#contact">
               contact
             </a>
           </li>
