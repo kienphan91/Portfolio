@@ -1,7 +1,7 @@
 
 const About = () => {
   return (
-    <div id="about" className="px-10">
+    <div id="about" className="px-10 dark:bg-slate-900">
         <div className="container mx-auto flex flex-col-reverse lg:flex-row py-40 gap-20 items-center">
                 {/* left */}
             <div className="relative">
@@ -13,8 +13,8 @@ const About = () => {
                 {/* Right */}
                 <div className="my-auto flex flex-col gap-3">
                     <h1 className="text-indigo-600 font-bold">ABOUT ME</h1>
-                    <h1 className="text-3xl font-medium">Better Developer</h1>
-                    <h1 className="text-3xl font-medium">Better Experience</h1>
+                    <h1 className="text-3xl font-medium dark:text-white">Better Developer</h1>
+                    <h1 className="text-3xl font-medium dark:text-white">Better Experience</h1>
                     <p className="text-gray-400">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque repellendus quaerat voluptatibus quas cum, id veniam placeat vitae officiis dignissimos, explicabo doloribus numquam tempore soluta! Aspernatur eos maiores sit sint.</p>
                     <h2 className="text-gray-400 font-medium">HTML</h2>
                     <div className="w-full bg-gray-200 h-1.5 rounded-md">
