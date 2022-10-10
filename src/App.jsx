@@ -5,21 +5,22 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
+import { useState } from "react";
 
 const App = () => {
 
-  // const [btnDark, setBtnDark] = useState(true);
+  const [btnDark, setBtnDark] = useState(true);
 
-  // let checkClass = btnDark ? "" : "dark";
+  let checkClass = btnDark ? "" : "dark";
 
-  // function handleDark() {
-  //   setBtnDark((btnDark) => !btnDark);
-  // }
+  function handleDark() {
+    setBtnDark((btnDark) => !btnDark);
+  }
 
   return (
-    <div id="body" className="font-nunito">
+    <div id="body" className={`${checkClass} last:font-nunito`}>
       <div className="h-[50vh] lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden">
-        <Navbar />
+        <Navbar darkHandler = {handleDark}/>
         <Banner />
       </div>
       <About/>

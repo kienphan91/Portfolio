@@ -15,13 +15,13 @@ const NavbarLogo = () => {
   );
 };
 
-const MoonLogo = () => {
+const MoonLogo = (props) => {
   return (
-    <img id="moon" className="w-8 h-8 cursor-pointer hidden md:block" src="../../img/moon.png" alt=""/>
+    <img id="moon" onClick={props.darkHandler} className="w-8 h-8 cursor-pointer hidden md:block" src="../../img/moon.png" alt=""/>
   );
 };
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [btnState, setBtnState] = useState(true);
   const [btnStateMenu, setBtnStateMenu] = useState(true);
 
@@ -57,7 +57,7 @@ const Navbar = () => {
             <a href="#contact">contact</a>
           </li>
         </ul>
-        <MoonLogo />
+        <MoonLogo darkHandler = {props.darkHandler}/>
         <div
           id="navbar-toggle"
           className="space-y-1 md:hidden cursor-pointer z-10"
